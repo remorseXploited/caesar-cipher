@@ -9,7 +9,7 @@ int main(){
     printf("Enter the sentence to encrypt: ");
     fgets(sentence, MAX_LIMIT, stdin);
     
-    convertToUpper(sentence);
+    
     printf("This is the sentence to encrypt: %s\n", sentence);    
     encrypt(sentence);
     printf("This is the sentence encrypted: %s\n", sentence);
