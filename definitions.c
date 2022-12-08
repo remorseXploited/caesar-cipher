@@ -54,7 +54,7 @@ void decrypt(char s1[], int key){
                 break;
                 
             case 'A' ... 'Z':
-                extra = ('a' - s1[i]) + key;
+                extra = ('A' - s1[i]) + key;
                 if(extra > 0){
                     s1[i] = '[' - extra;
                 }else{

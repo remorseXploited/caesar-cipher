@@ -14,9 +14,9 @@ int main(){
     printf("Enter the sentence to encrypt: ");
     fgets(sentence, MAX_LIMIT, stdin);
     
-    printf("\n\nThis is the sentence to encrypt: %s\n", sentence);    
+     
     encrypt(sentence, KEY);
-    printf("This is the sentence encrypted: %s\n", sentence);
+    printf("\n\nThis is the sentence encrypted: %s\n", sentence);
     decrypt(sentence, KEY);
     printf("This is the sentence decrypted: %s\n", sentence);
 
